@@ -51,14 +51,21 @@ const StyledText = styled.div`
     }
   }
 `;
-const StyledPic = styled.div`
-  position: relative;
-  max-width: 300px;
+const StyledPhotosContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 
   @media (max-width: 768px) {
     margin: 50px auto 0;
     width: 70%;
+    gap: 30px;
   }
+`;
+
+const StyledPic = styled.div`
+  position: relative;
+  max-width: 300px;
 
   .wrapper {
     ${({ theme }) => theme.mixins.boxShadow};
@@ -194,18 +201,33 @@ const About = () => {
           </ul>
         </StyledText>
 
-        <StyledPic>
-          <div className="wrapper">
-            <StaticImage
-              className="img"
-              src="../../images/me.png"
-              width={500}
-              quality={95}
-              formats={['AUTO', 'WEBP', 'AVIF']}
-              alt="Headshot"
-            />
-          </div>
-        </StyledPic>
+        <StyledPhotosContainer>
+          <StyledPic>
+            <div className="wrapper">
+              <StaticImage
+                className="img"
+                src="../../images/me.png"
+                width={500}
+                quality={95}
+                formats={['AUTO', 'WEBP', 'AVIF']}
+                alt="Headshot"
+              />
+            </div>
+          </StyledPic>
+
+          <StyledPic>
+            <div className="wrapper">
+              <StaticImage
+                className="img"
+                src="../../images/diving.png"
+                width={500}
+                quality={95}
+                formats={['AUTO', 'WEBP', 'AVIF']}
+                alt="Diving photo"
+              />
+            </div>
+          </StyledPic>
+        </StyledPhotosContainer>
       </div>
     </StyledAboutSection>
   );
