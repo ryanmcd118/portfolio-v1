@@ -152,7 +152,7 @@ const StyledProject = styled.li`
     padding: 0;
     margin: 20px 0 0 0;
     list-style: none;
-    color: var(--dark-blue);
+    color: var(--secondary-green);
 
     li {
       font-family: var(--font-mono);

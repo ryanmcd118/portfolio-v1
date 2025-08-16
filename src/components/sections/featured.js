@@ -192,7 +192,7 @@ const StyledProject = styled.li`
 
     li {
       margin: 0 20px 5px 0;
-      color: var(--dark-blue);
+      color: var(--secondary-green);
       font-family: var(--font-mono);
       font-size: var(--fz-xs);
       white-space: nowrap;
