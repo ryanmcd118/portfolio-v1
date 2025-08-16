@@ -66,19 +66,16 @@ const Hero = () => {
     <>
       <p>
         I’m a full-stack software engineer who loves building tools that make life easier for the
-        people who use them.
+        people who use them. At <a href="https://www.eaton.com/us/en-us.html">Eaton</a>, I work on
+        the next generation of network management systems. I'm also actively building{' '}
+        <a href="https://diveiq.io/">Dive IQ</a>, an AI-powered dive planning app for the global
+        scuba community. Previously, I led engineering teams and taught modern web development at{' '}
+        <a href="https://www.codesmith.io/">Codesmith</a>.
       </p>
 
       <p>
-        For the past three years, I worked at{' '}
-        <a href="https://codesmith.io/" target="_blank" rel="noreferrer">
-          {' '}
-          Codesmith{' '}
-        </a>
-        , where I led engineering teams, built internal tools and platform features, and taught
-        workshops on modern JavaScript, system design, and engineering best practices. Whether I'm
-        deep in the stack or supporting a team, I care most about building systems that last and
-        helping others grow along the way.
+        I care about building systems that last, helping others grow along the way, and making sure
+        I'm always learning something new.
       </p>
     </>
   );

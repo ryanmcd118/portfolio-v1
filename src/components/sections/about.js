@@ -51,14 +51,21 @@ const StyledText = styled.div`
     }
   }
 `;
-const StyledPic = styled.div`
-  position: relative;
-  max-width: 300px;
+const StyledPhotosContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 
   @media (max-width: 768px) {
     margin: 50px auto 0;
     width: 70%;
+    gap: 30px;
   }
+`;
+
+const StyledPic = styled.div`
+  position: relative;
+  max-width: 300px;
 
   .wrapper {
     ${({ theme }) => theme.mixins.boxShadow};
@@ -134,15 +141,15 @@ const About = () => {
     'JavaScript/TypeScript',
     'HTML/CSS',
     'Node.js/Express',
-    'GraphQL',
+    'APIs (REST, GraphQL)',
     'React',
-    'Redux',
-    'Cypress',
-    'Jest',
+    'Next.js',
+    'Vercel',
     'Docker',
-    'GitHub Actions',
-    'SQL/NoSQL',
-    'OAuth 2.0',
+    'CI/CD (GitHub Actions)',
+    'PostgreSQL / MongoDB',
+    'State management (Redux, Zustand)',
+    'Testing (Jest, RTL, Cypress)',
   ];
 
   return (
@@ -154,24 +161,39 @@ const About = () => {
           <div>
             <p>
               {' '}
-              Hi! I'm Ryan, a full-stack software engineer who loves building things that make a
-              difference. My interest in technology started young, from trying to reverse-engineer
-              Microsoft Paint as a kid to perfecting MySpace layouts as a teenager.
+              Hi, I’m Ryan! I’m an engineer, a teacher, and, when I can get away from my desk, a
+              scuba diver. My path into tech has never been linear, and for me that’s what has
+              always made it interesting.
             </p>
 
             <p>
-              Since graduating from <a href="https://smith.edu/">Smith College</a>, I've had the
-              chance to work with some amazing teams on impactful products. I've led the development
-              of critical public platforms and internal tools, co-created an open-source GraphQL
-              migration aid, and built countless personal projects that let me explore new
-              technologies. Most recently, at Codesmith, I led teams and mentored thousands of
-              engineers as the Lead Instructor of the flagship software engineering immersive
-              program.
+              My interest in technology started the way a lot of millennial stories probably do:
+              breaking the family computer and trying to fix it before anyone noticed. That early
+              curiosity carried me through <a href="https://smith.edu/">Smith College</a>, where I
+              learned to think critically and communicate clearly, and later to{' '}
+              <a href="https://www.codesmith.io/">Codesmith</a>, where I grew into a Senior Software
+              Engineer and Lead Instructor.
             </p>
 
-            <p id="my-tech">
-              These days, I've been working with a wide range of interesting techs, including:
+            <p>
+              At Codesmith, I discovered how much I loved mentoring. While leading the team at the
+              flagship NYC campus, I taught everything from closure and recursion to Node and system
+              design. Teaching thousands of engineers gave me a front-row seat to the way people
+              learn, struggle, and break through with programming. That experience shaped how I
+              approach engineering today: not just writing code, but building systems that empower
+              other humans.
             </p>
+
+            <p>
+              Since then, I’ve led engineering teams, helped guide the next generation of network
+              management tools at <a href="https://www.eaton.com/us/en-us.html">Eaton</a>, and
+              launched <a href="https://diveiq.io/">Dive IQ</a>, a project close to my heart that
+              merges my love of scuba diving with my love of software. Whether I’m knee-deep in
+              TypeScript or testing out new dive gear, I’m always chasing a mix of curiosity and
+              craftsmanship.
+            </p>
+
+            <p id="my-tech">Here's what I've been building with recently:</p>
           </div>
 
           <ul className="skills-list">
@@ -179,18 +201,33 @@ const About = () => {
           </ul>
         </StyledText>
 
-        <StyledPic>
-          <div className="wrapper">
-            <StaticImage
-              className="img"
-              src="../../images/me.png"
-              width={500}
-              quality={95}
-              formats={['AUTO', 'WEBP', 'AVIF']}
-              alt="Headshot"
-            />
-          </div>
-        </StyledPic>
+        <StyledPhotosContainer>
+          <StyledPic>
+            <div className="wrapper">
+              <StaticImage
+                className="img"
+                src="../../images/me.png"
+                width={500}
+                quality={95}
+                formats={['AUTO', 'WEBP', 'AVIF']}
+                alt="Headshot"
+              />
+            </div>
+          </StyledPic>
+
+          <StyledPic>
+            <div className="wrapper">
+              <StaticImage
+                className="img"
+                src="../../images/diving.png"
+                width={500}
+                quality={95}
+                formats={['AUTO', 'WEBP', 'AVIF']}
+                alt="Diving photo"
+              />
+            </div>
+          </StyledPic>
+        </StyledPhotosContainer>
       </div>
     </StyledAboutSection>
   );
