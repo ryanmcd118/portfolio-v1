@@ -41,7 +41,7 @@ const StyledSocialLinks = styled.div`
 `;
 
 const StyledCredit = styled.div`
-  color: var(--tertiary-purple);
+  color: var(--dark-brown);
   font-family: var(--font-mono);
   font-size: var(--fz-xxs);
   line-height: 1;

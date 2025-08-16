@@ -17,10 +17,10 @@ const StyledScrollToTopContainer = styled.div`
     align-items: center;
     width: 30px;
     height: 30px;
-    color: var(--dark-blue);
+    color: var(--secondary-green);
     background-color: transparent;
     border-radius: 50%;
-    border: 1px solid var(--dark-blue);
+    border: 1px solid var(--secondary-green);
     transition: var(--transition);
     margin: 0 auto;
     text-decoration: none;
@@ -31,7 +31,7 @@ const StyledScrollToTopContainer = styled.div`
     &:hover,
     &:focus-visible {
       outline: none;
-      box-shadow: 4px 4px 0 0 var(--dark-blue);
+      box-shadow: 4px 4px 0 0 var(--secondary-green);
       transform: translate(-5px, -5px);
     }
 

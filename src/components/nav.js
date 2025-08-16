@@ -59,7 +59,7 @@ const StyledNav = styled.nav`
   ${({ theme }) => theme.mixins.flexBetween};
   position: relative;
   width: 100%;
-  color: var(--dark-blue);
+  color: var(--secondary-green);
   font-family: var(--font-mono);
   counter-reset: item 0;
   z-index: 12;
@@ -120,7 +120,7 @@ const StyledLinks = styled.div`
         &:before {
           content: '0' counter(item) '.';
           margin-right: 5px;
-          color: var(--bright-strawberry);
+          color: var(--secondary-green);
           font-size: var(--fz-xxs);
           text-align: right;
         }

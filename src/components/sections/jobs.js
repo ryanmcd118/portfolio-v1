@@ -95,7 +95,7 @@ const StyledTabButton = styled.button`
 
   &:hover,
   &:focus {
-    background-color: var(--tertiary-royal-blue-tint);
+    background-color: var(--soft-green-tint);
   }
 `;
 
@@ -158,7 +158,7 @@ const StyledTabPanel = styled.div`
 
   .range {
     margin-bottom: 25px;
-    color: var(--tertiary-royal-blue);
+    color: var(--secondary-green);
     font-family: var(--font-mono);
     font-size: var(--fz-xs);
   }
