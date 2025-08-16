@@ -8,10 +8,10 @@ const variables = css`
     --green: #64ffda;
     --pink: #f57dff;
     --blue: #57cbff;
-    --cream: #fbf7f7;
+    --cream: #ffffff;
     --light-cream: #faf7f7;
     --light-strawberry: #eda8b4;
-    --dull-strawberry: #f0ebec;
+    --dull-strawberry: #f5f4f2;
     --light-brown: #b3aba2;
     --lighter-brown: #b2aca5;
     --dark-brown: #57534e;
