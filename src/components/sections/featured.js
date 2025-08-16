@@ -124,7 +124,7 @@ const StyledProject = styled.li`
   }
 
   .project-title {
-    color: var(--tertiary-purple);
+    color: var(--dark-brown);
     font-size: clamp(24px, 5vw, 28px);
 
     @media (min-width: 768px) {
