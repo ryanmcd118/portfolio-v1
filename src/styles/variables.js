@@ -24,6 +24,7 @@ const variables = css`
     --secondary-light-green: #b4cfc0;
     --tertiary-purple: #330036;
     --dark-gray: #424242;
+    --accent-blue: #00b4d8;
 
     --font-sans: 'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui,
       sans-serif;
