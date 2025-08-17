@@ -32,12 +32,10 @@
   },
   "dependencies": {
     "animejs": "^3.2.1",
-    "babel-plugin-styled-components": "^2.1.4",
     "gatsby": "^5.11.0",
     "gatsby-plugin-google-gtag": "^5.12.0",
     "gatsby-plugin-image": "^3.11.0",
     "gatsby-plugin-manifest": "^5.11.0",
-    "gatsby-plugin-netlify": "^5.1.0",
     "gatsby-plugin-offline": "^6.11.0",
     "gatsby-plugin-react-helmet": "^6.11.0",
     "gatsby-plugin-robots-txt": "^1.8.0",
