@@ -33,7 +33,7 @@ const StyledText = styled.div`
     list-style: none;
 
     li {
-      color: var(--secondary-green);
+      color: var(--accent-blue);
       position: relative;
       margin-bottom: 10px;
       padding-left: 20px;

@@ -120,7 +120,7 @@ const StyledLinks = styled.div`
         &:before {
           content: '0' counter(item) '.';
           margin-right: 5px;
-          color: var(--secondary-green);
+          color: var(--primary-orange);
           font-size: var(--fz-xxs);
           text-align: right;
         }

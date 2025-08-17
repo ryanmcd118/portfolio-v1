@@ -124,7 +124,7 @@ const StyledProject = styled.li`
   }
 
   .project-title {
-    color: var(--dark-brown);
+    color: var(--secondary-green);
     font-size: clamp(24px, 5vw, 28px);
 
     @media (min-width: 768px) {
@@ -192,7 +192,7 @@ const StyledProject = styled.li`
 
     li {
       margin: 0 20px 5px 0;
-      color: var(--secondary-green);
+      color: var(--accent-blue);
       font-family: var(--font-mono);
       font-size: var(--fz-xs);
       white-space: nowrap;
