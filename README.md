@@ -2,11 +2,11 @@
 
 [![Vercel Deploy](https://vercelbadge.vercel.app/api/ryanmcd118/portfolio-v1)](https://ryanmcdaniel.io)
 
-Source code for my portfolio site, built with **Gatsby** and deployed on **Vercel**. It showcases projects I’ve built, tools I’ve worked with, and some of the engineering experience I’ve picked up along the way.
+Source code for my portfolio site, built with **Gatsby** and deployed on **Vercel**. It showcases featured projects, technologies I’ve worked with, and my engineering experience.
 
 ---
 
-## 🔧 Tech Stack
+## Tech Stack
 
 - Gatsby
 - React
