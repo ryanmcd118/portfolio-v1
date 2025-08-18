@@ -1,8 +1,8 @@
 ---
 date: '2024-01-18'
-title: 'lexiql.io'
-github: 'https://github.com/oslabs-beta/lexiql'
-external: 'https://lexiql.io'
+title: 'orbitdev.io'
+github: 'https://github.com/oslabs-beta/orbit'
+external: 'https://www.orbitdev.io/'
 tech:
   - GraphQL
   - React

@@ -3,7 +3,7 @@ date: '2'
 title: 'Algo Arena'
 cover: './algoArena.png'
 github: 'https://github.com/ryanmcd118/Algo-Arena'
-# external: 'https://lexiql.io'
+# external: 'https://www.orbitdev.io'
 tech:
   - TypeScript
   - PostgreSQL

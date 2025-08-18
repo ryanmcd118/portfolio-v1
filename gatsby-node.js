@@ -68,6 +68,17 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   });
 };
 
+// Define custom GraphQL schema for markdown frontmatter
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions;
+  const typeDefs = `
+    type MarkdownRemarkFrontmatter {
+      medium: String
+    }
+  `;
+  createTypes(typeDefs);
+};
+
 // https://www.gatsbyjs.org/docs/node-apis/#onCreateWebpackConfig
 exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
   // https://www.gatsbyjs.org/docs/debugging-html-builds/#fixing-third-party-modules
