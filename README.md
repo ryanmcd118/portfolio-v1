@@ -1,13 +1,39 @@
-<div align="center">
-  <img alt="Logo" src="./src/images/logo.png" width="100" />
-</div>
-<h1 align="center">
-  ryanmcdaniel.io - v1
-</h1>
-<p align="center">
-  The first iteration of <a href="https://ryanmcdaniel.io" target="_blank">ryanmcdaniel.io</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>. Forked from the amazing <a href="https://github.com/bchiang7" target="_blank">Brittany Chiang</a> and iterated on by yours truly.
-</p>
+# ryanmcdaniel.io – Portfolio v1
+
+[![Vercel Deploy](https://vercelbadge.vercel.app/api/ryanmcd118/portfolio-v1)](https://ryanmcdaniel.io)
+
+Source code for my portfolio site, built with **Gatsby** and deployed on **Vercel**. It showcases projects I’ve built, tools I’ve worked with, and some of the engineering experience I’ve picked up along the way.
+
+---
+
+## 🔧 Tech Stack
+
+- Gatsby
+- React
+- GraphQL
+- Sass / Styled Components
+- Vercel (CI/CD + hosting)
+
+---
+
+## Features
+
+- Responsive design for desktop & mobile
+- Smooth section navigation + hover animations
+- Project cards with logos and external links
+- CI/CD pipeline with Vercel for automatic deploys
+- Clean typography and color palette aligned with my personal branding (and inspired by my favorite color combo!)
+
+---
+
+## Demo
 
 ![demo](./src/images/demo.png)
 
+🔗 [View the live site](https://ryanmcdaniel.io)
+
 ---
+
+## Credits
+
+Inspired by [Brittany Chiang](https://github.com/bchiang7)’s awesome open source portfolio, and since rebuilt and customized into my own iteration.
