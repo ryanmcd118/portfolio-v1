@@ -36,4 +36,4 @@ Source code for my portfolio site, built with **Gatsby** and deployed on **Verce
 
 ## Credits
 
-Inspired by [Brittany Chiang](https://github.com/bchiang7)’s awesome open source portfolio, and since rebuilt and customized into my own iteration.
+Inspired by [Brittany Chiang](https://brittanychiang.com/)’s awesome open source portfolio, and since rebuilt and customized into my own iteration.
