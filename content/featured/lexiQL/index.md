@@ -1,10 +1,10 @@
 ---
 date: '1'
-title: 'lexiQL'
-cover: './lexiQL.png'
-github: 'https://github.com/oslabs-beta/lexiQL'
+title: 'Orbit'
+cover: './orbit.png'
+github: 'https://github.com/oslabs-beta/orbit'
 medium: 'https://medium.com/@ryan-mcdaniel/introducing-lexiql-56401bbf8d9e'
-external: 'https://lexiql.io'
+external: 'https://www.orbitdev.io/'
 tech:
   - GraphQL
   - PostgreSQL
@@ -12,4 +12,4 @@ tech:
   - CodeMirror
 ---
 
-lexiQL is a [GraphQL](https://graphql.org/) migration aid and relational database visualizer, developed under tech accelerator [OSLabs](https://opensourcelabs.io).
+Orbit is a [GraphQL](https://graphql.org/) migration aid and relational database visualizer, developed under tech accelerator [OSLabs](https://opensourcelabs.io).
