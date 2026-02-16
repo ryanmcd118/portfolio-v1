@@ -1,13 +1,14 @@
 ---
-date: '2024-06-16'
-title: 'Technical Product Manager'
+date: '2024-06-19'
+title: 'Engineering Enablement Product Manager'
 company: 'Eaton'
 location: 'Remote'
-range: '2025 - Present'
+range: 'April 2025 - Present'
 url: 'https://www.eaton.com/us/en-us.html'
 ---
 
-- Designed and executed automated Postman test scripts validating 200+ REST API endpoints, identifying and documenting defects for backend resolution, and streamlining QA handoffs across engineering teams.
-- Overhauled API documentation by verifying endpoint functionality, parameters, and example responses, reducing onboarding time for new developers and ensuring consistency across internal and external references.
-- Authored a technical whitepaper on MQTT architecture, security practices, and implementation guidelines, providing engineering and product teams with a shared reference for secure deployment.
-- Partnered with firmware and backend engineers to validate features, reproduce high-priority bugs, and align delivery timelines with cross-team dependencies.
+- Leading hands-on validation of a large REST API for a flagship network management platform, using Postman to explore endpoint behavior, identify gaps & edge cases, and reconcile documented behavior with underlying systems.
+- Designing and executing automated Postman test collections covering 200+ API endpoints, surfacing defects and inconsistencies that improve backend quality and reduce friction across multiple core workflows.
+- Defining and refining request/response schemas, example payloads, and usage guidance for developer-facing API documentation, reducing integration errors and onboarding friction for internal and external consumers.
+- Partnering closely with firmware, API, and product engineers to reproduce and triage complex issues across networking, embedded systems, and backend services, supporting root-cause analysis and faster resolution.
+- Authoring 20+ technical documents, including firmware release notes, MQTT architecture guidance, and new feature walkthroughs, translating low-level system behavior into accurate material for customers and internal teams.

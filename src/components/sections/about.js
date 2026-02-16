@@ -162,12 +162,11 @@ const About = () => {
             <p>
               {' '}
               Hi, I’m Ryan! I’m an engineer, a teacher, and, when I can get away from my desk, a
-              scuba diver. My path into tech has never been linear, and for me that’s what has
-              always made it interesting.
+              scuba diver.
             </p>
 
             <p>
-              My interest in technology started the way a lot of millennial stories probably do:
+              My interest in technology started in (what I suspect is) a highly millennial way:
               breaking the family computer and trying to fix it before anyone noticed. That early
               curiosity carried me through <a href="https://smith.edu/">Smith College</a>, where I
               learned to think critically and communicate clearly, and later to{' '}
@@ -180,8 +179,8 @@ const About = () => {
               flagship NYC campus, I taught everything from closure and recursion to Node and system
               design. Teaching thousands of engineers gave me a front-row seat to the way people
               learn, struggle, and break through with programming. That experience shaped how I
-              approach engineering today: not just writing code, but building systems that empower
-              other humans.
+              approach engineering today: not just writing code for machines, but building systems
+              that empower other humans.
             </p>
 
             <p>

@@ -3,7 +3,7 @@ date: '2024-06-18'
 title: 'Senior Software Engineer & Lead Instructor'
 company: 'Codesmith'
 location: 'Remote'
-range: '2021 - 2024'
+range: 'May 2021 - April 2024'
 url: 'https://www.codesmith.io/'
 ---
 
