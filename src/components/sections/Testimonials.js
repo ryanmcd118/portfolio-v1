@@ -26,6 +26,13 @@ const StyledCard = styled.div`
   background-color: var(--dull-strawberry);
   border-radius: 8px;
   padding: 28px;
+  border-left: 3px solid transparent;
+  transition: border-left 0.2s ease, transform 0.2s ease;
+
+  &:hover {
+    border-left: 3px solid var(--secondary-green);
+    transform: translateY(-4px);
+  }
 
   .quote-mark {
     color: var(--primary-orange);
