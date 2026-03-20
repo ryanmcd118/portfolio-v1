@@ -1,16 +1,14 @@
 ---
 date: '2024-06-18'
-title: 'Senior Software Engineer & Lead Instructor'
+title: 'Product Manager & Senior Software Engineer'
 company: 'Codesmith'
 location: 'Remote'
 range: 'May 2021 - April 2024'
 url: 'https://www.codesmith.io/'
 ---
 
-- Maintained ed tech learning platform, public site, and internal tooling built with TypeScript, React, Redux, Postgres, and Node/Express, tested with Jest/RTL/Cypress, and streamlined with Docker and GitHub Actions.
-- Spearheaded React-Redux codebase modernization, delivering major version updates to core application dependencies and achieving 100% class to functional component migration, resulting in a significant reduction of technical debt.
-- Implemented React Testing Library and Jest for comprehensive unit and integration testing, simulating real-world user interactions in order to identify defects early, verify complex renders, and enable quicker debugging cycles.
-- Contributed to large-scale TypeScript migration aimed at improving application maintainability and scalability, ultimately resulting in a 30% decrease in bug reports and a cleaner code architecture.
-- Optimized central Node/Express logic by eliminating unnecessary queries and streamlining middleware, leading to increased platform reliability, targeted UX improvements, and expanded functionality in a pivotal internal tool.
-- Developed a GitHub API integration to enable granular permission management across an array of company repositories, reducing administrative overhead and enhancing security measures for both technical and non-technical team members.
-- Delivered technical training to thousands of junior engineers on core full-stack technologies and fundamental computer science concepts, strengthening proprietary curriculum and orchestrating large-scale technical growth.
+- Managed a team of 10 contractors and 2 full-time engineers, improving operational effectiveness through standardized documentation, structured training, iterative process improvements, and cross-functional coordination.
+- Proposed and led a company-wide migration from Asana to Jira and Confluence across 4 divisions, designing the full project management architecture and GitHub integrations after a successful pilot within the engineering division.
+- Scoped and led a legacy platform modernization initiative implemented by 3 engineering teams, securing executive buy-in and coordinating cross-functional execution across engineering, curriculum, and operations teams.
+- Maintained and modernized an ed tech platform built with TypeScript, React, Redux, PostgreSQL, and Node/Express, completing a 100% class-to-functional component migration and reducing bug reports by 30%.
+- Delivered technical training to 500+ junior engineers on full-stack technologies and computer science fundamentals, designing curriculum end-to-end and owning the full instructional experience across the flagship NYC program.
