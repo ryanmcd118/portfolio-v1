@@ -12,6 +12,8 @@ tech:
   - Next.js
   - PostgreSQL
   - TypeScript
+buttonLabel: 'Visit DiveIQ'
+buttonUrl: 'https://diveiq.io'
 ---
 
 DiveIQ is an AI-assisted platform for the scuba diving community covering dive planning, site research, and logging. Built from zero to launch — conducting user research with 20+ divers, designing the product end-to-end, and directing a multi-agent AI development workflow to implement it.
