@@ -35,6 +35,10 @@ const StyledProjectsSection = styled.section`
     @media (max-width: 1080px) {
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     }
+
+    @media (max-width: 600px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
   }
 
   .more-button {
@@ -52,7 +56,8 @@ const StyledProject = styled.li`
     &:hover,
     &:focus-within {
       .project-inner {
-        transform: translateY(-7px);
+        transform: translateY(-4px);
+        border-left: 3px solid var(--secondary-green);
       }
     }
   }
@@ -72,7 +77,8 @@ const StyledProject = styled.li`
     padding: 2rem 1.75rem;
     border-radius: var(--border-radius);
     background-color: var(--dull-strawberry);
-    transition: var(--transition);
+    border-left: 3px solid transparent;
+    transition: border-left 0.2s ease, transform 0.2s ease, box-shadow var(--transition);
     overflow: auto;
   }
 
@@ -109,6 +115,33 @@ const StyledProject = styled.li`
         svg {
           width: 20px;
           height: 20px;
+        }
+      }
+    }
+
+    .project-top-buttons {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 4px;
+
+      a {
+        border: 1px solid var(--secondary-green);
+        border-radius: 3px;
+        padding: 5px 10px;
+        font-size: 11px;
+        font-family: var(--font-mono);
+        color: var(--secondary-green);
+        text-decoration: none;
+        display: block;
+        text-align: right;
+        line-height: 1.4;
+        background: none;
+        transition: var(--transition);
+
+        &:hover {
+          box-shadow: 3px 3px 0 0 var(--secondary-green);
+          transform: translate(-2px, -2px);
         }
       }
     }
@@ -183,6 +216,10 @@ const Projects = () => {
               tech
               github
               external
+              buttonOneLabel
+              buttonOneUrl
+              buttonTwoLabel
+              buttonTwoUrl
             }
             html
           }
@@ -191,7 +228,7 @@ const Projects = () => {
     }
   `);
 
-  const showMore = useState(false);
+  const [showMore, setShowMore] = useState(false);
   const revealTitle = useRef(null);
   const revealArchiveLink = useRef(null);
   const revealProjects = useRef([]);
@@ -209,12 +246,20 @@ const Projects = () => {
 
   const GRID_LIMIT = 6;
   const projects = data.projects.edges.filter(({ node }) => node);
-  const firstSix = projects.slice(0, GRID_LIMIT);
-  const projectsToShow = showMore ? projects : firstSix;
+  const projectsToShow = projects.slice(0, showMore ? 9 : GRID_LIMIT);
 
   const projectInner = node => {
     const { frontmatter, html } = node;
-    const { github, external, title, tech } = frontmatter;
+    const {
+      github,
+      external,
+      title,
+      tech,
+      buttonOneLabel,
+      buttonOneUrl,
+      buttonTwoLabel,
+      buttonTwoUrl,
+    } = frontmatter;
 
     return (
       <div className="project-inner">
@@ -223,23 +268,38 @@ const Projects = () => {
             <div className="folder">
               <Icon name="Folder" />
             </div>
-            <div className="project-links">
-              {github && (
-                <a href={github} aria-label="GitHub Link" target="_blank" rel="noreferrer">
-                  <Icon name="GitHub" />
-                </a>
-              )}
-              {external && (
-                <a
-                  href={external}
-                  aria-label="External Link"
-                  className="external"
-                  target="_blank"
-                  rel="noreferrer">
-                  <Icon name="External" />
-                </a>
-              )}
-            </div>
+            {(buttonOneLabel && buttonOneUrl) || (buttonTwoLabel && buttonTwoUrl) ? (
+              <div className="project-top-buttons">
+                {buttonOneLabel && buttonOneUrl && (
+                  <a href={buttonOneUrl} target="_blank" rel="noopener noreferrer">
+                    {buttonOneLabel}
+                  </a>
+                )}
+                {buttonTwoLabel && buttonTwoUrl && (
+                  <a href={buttonTwoUrl} target="_blank" rel="noopener noreferrer">
+                    {buttonTwoLabel}
+                  </a>
+                )}
+              </div>
+            ) : (
+              <div className="project-links">
+                {github && (
+                  <a href={github} aria-label="GitHub Link" target="_blank" rel="noreferrer">
+                    <Icon name="GitHub" />
+                  </a>
+                )}
+                {external && (
+                  <a
+                    href={external}
+                    aria-label="External Link"
+                    className="external"
+                    target="_blank"
+                    rel="noreferrer">
+                    <Icon name="External" />
+                  </a>
+                )}
+              </div>
+            )}
           </div>
 
           <h3 className="project-title">
@@ -270,7 +330,7 @@ const Projects = () => {
 
   return (
     <StyledProjectsSection>
-      <h2 ref={revealTitle}>Other Noteworthy Work</h2>
+      <h2 ref={revealTitle}>Additional Recent Highlights</h2>
 
       {/* <Link className="inline-link archive-link" to="/archive" ref={revealArchiveLink}>
         view the archive
@@ -307,9 +367,11 @@ const Projects = () => {
         )}
       </ul>
 
-      {/* <button className="more-button" onClick={() => setShowMore(!showMore)}>
-        Show {showMore ? 'Less' : 'More'}
-      </button> */}
+      {projects.length > GRID_LIMIT && (
+        <button className="more-button" onClick={() => setShowMore(!showMore)}>
+          Show {showMore ? 'Less' : 'More'}
+        </button>
+      )}
     </StyledProjectsSection>
   );
 };

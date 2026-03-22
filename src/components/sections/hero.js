@@ -61,21 +61,22 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Ryan McDaniel.</h2>;
-  const three = <h3 className="big-heading">I build awesome web experiences.</h3>;
+  const three = <h3 className="big-heading">I build cool things that work.</h3>;
   const four = (
     <>
       <p>
-        I’m a full-stack software engineer who loves building tools that make life easier for the
-        people who use them. At <a href="https://www.eaton.com/us/en-us.html">Eaton</a>, I work on
-        the next generation of network management systems. I'm also actively building{' '}
-        <a href="https://diveiq.io/">Dive IQ</a>, an AI-powered dive planning app for the global
-        scuba community. Previously, I led engineering teams and taught modern web development at{' '}
-        <a href="https://www.codesmith.io/">Codesmith</a>.
+        I'm a product manager with a full-stack engineering background. At{' '}
+        <a href="https://www.eaton.com/us/en-us.html">Eaton</a>, I own product initiatives for the
+        next generation of network management systems, coordinating across software, firmware, and
+        hardware teams. I'm also the founder of <a href="https://diveiq.io/">DiveIQ</a>, an
+        AI-assisted platform for dive planning, logging, and site research that I've taken from idea
+        to launch. Previously, I led product and engineering teams at{' '}
+        <a href="https://www.codesmith.io/">Codesmith</a>, a venture-backed edtech startup.
       </p>
 
       <p>
-        I care about building systems that last, helping others grow along the way, and making sure
-        I'm always learning something new.
+        I care about building products that last, working closely with engineering teams, and making
+        sure I'm always learning something new.
       </p>
     </>
   );
