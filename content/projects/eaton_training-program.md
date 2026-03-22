@@ -1,6 +1,6 @@
 ---
 date: '2024-01-21'
-title: 'Eaton: Technical Training Program'
+title: 'Eaton: Technical Training'
 external: 'https://www.eaton.com/us/en-us.html'
 tech:
   - Curriculum Design
@@ -10,4 +10,4 @@ company: 'Eaton'
 showInProjects: true
 ---
 
-Designed and delivered a cross-functional REST API training program for sales, product, and engineering after conducting a structured needs analysis identifying gaps across all three teams.
+Designed and delivered a cross-functional REST API training program for sales, product, and engineering after conducting a structured needs analysis identifying gaps across all three teams. Built curriculum from scratch, covering API fundamentals through advanced integration workflows.

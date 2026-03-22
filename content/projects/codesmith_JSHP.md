@@ -10,6 +10,8 @@ tech:
   - Recursion
 company: 'Codesmith'
 showInProjects: true
+buttonOneLabel: 'Watch: Classes & Prototypes'
+buttonOneUrl: 'https://www.youtube.com/watch?v=D0B51op_7yI'
 ---
 
 Long-running technical education series designed and delivered as Lead Instructor at Codesmith. Attended live by hundreds of engineers and viewed by thousands on YouTube. Built from scratch with a focus on making complex JavaScript concepts accessible to learners at every level.
