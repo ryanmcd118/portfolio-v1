@@ -137,19 +137,34 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
+  // const skills = [
+  //   'JavaScript/TypeScript',
+  //   'HTML/CSS',
+  //   'Node.js/Express',
+  //   'APIs (REST, GraphQL)',
+  //   'React',
+  //   'Next.js',
+  //   'Vercel',
+  //   'Docker',
+  //   'CI/CD (GitHub Actions)',
+  //   'PostgreSQL / MongoDB',
+  //   'State management (Redux, Zustand)',
+  //   'Testing (Jest, RTL, Cypress)',
+  // ];
+
   const skills = [
-    'JavaScript/TypeScript',
-    'HTML/CSS',
-    'Node.js/Express',
-    'APIs (REST, GraphQL)',
-    'React',
-    'Next.js',
-    'Vercel',
-    'Docker',
-    'CI/CD (GitHub Actions)',
-    'PostgreSQL / MongoDB',
-    'State management (Redux, Zustand)',
-    'Testing (Jest, RTL, Cypress)',
+    'Product strategy & roadmapping',
+    'Full-stack development (React, Node, TypeScript)',
+    'Stakeholder management',
+    'Agentic AI workflows',
+    'User research',
+    'REST APIs',
+    'Agile / Scrum',
+    'SQL / PostgreSQL',
+    'Technical documentation',
+    'CI/CD & testing workflows',
+    'Data analysis',
+    'LLM product integration',
   ];
 
   return (
@@ -161,38 +176,37 @@ const About = () => {
           <div>
             <p>
               {' '}
-              Hi, I’m Ryan! I’m an engineer, a teacher, and, when I can get away from my desk, a
-              scuba diver.
+              Hi, I’m Ryan! I’m a product manager, a software engineer, and, when I can get away
+              from my desk, a scuba diver.
             </p>
 
             <p>
-              My interest in technology started in (what I suspect is) a highly millennial way:
-              breaking the family computer and trying to fix it before anyone noticed. That early
-              curiosity carried me through <a href="https://smith.edu/">Smith College</a>, where I
-              learned to think critically and communicate clearly, and later to{' '}
-              <a href="https://www.codesmith.io/">Codesmith</a>, where I grew into a Senior Software
-              Engineer and Lead Instructor.
+              My experience covers a lot of ground: I've owned product initiatives at{' '}
+              <a href="https://www.eaton.com/us/en-us.html">Eaton</a>, a $27B global enterprise,
+              coordinating across firmware, hardware, and software teams. I spent several years at{' '}
+              <a href="https://www.codesmith.io/">Codesmith</a>, a venture-backed edtech startup,
+              leading engineering teams and teaching full-stack development to hundreds of
+              engineers. And I founded <a href="https://diveiq.io/">Dive IQ</a>, an AI-assisted
+              platform for the scuba diving community that I've taken from zero to launch, directing
+              a multi-agent AI development workflow and owning the full product lifecycle on my own.
             </p>
 
             <p>
-              At Codesmith, I discovered how much I loved mentoring. While leading the team at the
-              flagship NYC campus, I taught everything from closure and recursion to Node and system
-              design. Teaching thousands of engineers gave me a front-row seat to the way people
-              learn, struggle, and break through with programming. That experience shaped how I
-              approach engineering today: not just writing code for machines, but building systems
-              that empower other humans.
+              That last one matters to me in a specific way, both personally and professionally.
+              Building DiveIQ taught me what it actually means to ship a product, not just
+              contribute to one. The discovery, the tradeoffs, the unglamorous middle stretch where
+              nothing is working yet... I've lived all of it. I use agentic AI workflows as a core
+              part of how I build, and the more I do, the more I can see that it's an essential
+              component, not a nice-to-have, for modern PMs.
             </p>
 
             <p>
-              Since then, I’ve led engineering teams, helped guide the next generation of network
-              management tools at <a href="https://www.eaton.com/us/en-us.html">Eaton</a>, and
-              launched <a href="https://diveiq.io/">Dive IQ</a>, a project close to my heart that
-              merges my love of scuba diving with my love of software. Whether I’m knee-deep in
-              TypeScript or testing out new dive gear, I’m always chasing a mix of curiosity and
-              craftsmanship.
+              If I'm not at work, I'm probably underwater, chasing my dog Finn, pursuing my undying
+              love for pineapple pizza, or slowly working my way through a bedside table full of
+              books.
             </p>
 
-            <p id="my-tech">Here's what I've been building with recently:</p>
+            <p id="my-tech">What I bring to the table:</p>
           </div>
 
           <ul className="skills-list">
