@@ -1,5 +1,5 @@
 ---
-date: '2024-01-21'
+date: '2024-01-23'
 title: 'Eaton: Technical Documentation'
 github: 'https://www.eaton.com/us/en-us.html'
 tech:

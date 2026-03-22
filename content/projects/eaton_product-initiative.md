@@ -1,6 +1,6 @@
 ---
 date: '2024-01-24'
-title: 'Eaton: New product initiative'
+title: 'Eaton: New Product Initiative'
 external: 'https://www.eaton.com/us/en-us.html'
 tech:
   - Product Strategy
