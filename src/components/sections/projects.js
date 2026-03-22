@@ -126,8 +126,8 @@ const StyledProject = styled.li`
       a {
         border: 1px solid var(--secondary-green);
         border-radius: 3px;
-        padding: 3px 8px;
-        font-size: 10px;
+        padding: 5px 10px;
+        font-size: 11px;
         font-family: var(--font-mono);
         color: var(--secondary-green);
         text-decoration: none;
@@ -138,7 +138,8 @@ const StyledProject = styled.li`
         transition: var(--transition);
 
         &:hover {
-          opacity: 0.7;
+          box-shadow: 3px 3px 0 0 var(--secondary-green);
+          transform: translate(-2px, -2px);
         }
       }
     }
