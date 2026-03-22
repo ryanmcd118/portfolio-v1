@@ -1,7 +1,7 @@
 ---
 date: '2'
 title: 'Eaton: API Documentation Overhaul'
-cover: './eaton.jpg'
+cover: './eaton.png'
 external: 'https://www.eaton.com/us/en-us.html'
 tech:
   - Technical Documentation
