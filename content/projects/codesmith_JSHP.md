@@ -1,5 +1,5 @@
 ---
-date: '2024-01-18'
+date: '2024-01-20'
 title: 'JavaScript: The Hard Parts'
 external: 'https://www.youtube.com/watch?v=D0B51op_7yI'
 tech:
@@ -8,8 +8,8 @@ tech:
   - Closure
   - Callbacks
   - Recursion
-company: ''
+company: 'Codesmith'
 showInProjects: true
 ---
 
-Long-term JavaScript speaker series attended live by hundreds of engineers and viewed by thousands on YouTube.
+Long-running technical education series designed and delivered as Lead Instructor at Codesmith. Attended live by hundreds of engineers and viewed by thousands on YouTube. Built from scratch with a focus on making complex JavaScript concepts accessible to learners at every level.

@@ -8,7 +8,8 @@ tech:
   - React
   - Node.js
   - PostgreSQL
+company: 'Orbit'
 showInProjects: true
 ---
 
-Open-source GraphQL developer tool that automated schema and resolver generation from relational database inputs.
+Led engineering team on an open-source GraphQL developer tool that automates schema and resolver generation from relational database inputs.

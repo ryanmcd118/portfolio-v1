@@ -1,5 +1,5 @@
 ---
-date: '2024-01-20'
+date: '2024-01-19'
 title: 'codesmith.io'
 external: 'https://www.codesmith.io/'
 tech:
@@ -8,7 +8,8 @@ tech:
   - PostgreSQL
   - Jest/Cypress
   - HubSpot CMS
+company: 'Codesmith'
 showInProjects: true
 ---
 
-Dynamic company landing page with 200k+ annual visitors.
+Company landing page for a venture-backed edtech startup, built and maintained as both engineer and product owner. Served 200K+ annual visitors across the full Codesmith product ecosystem.
