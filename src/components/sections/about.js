@@ -137,24 +137,9 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  // const skills = [
-  //   'JavaScript/TypeScript',
-  //   'HTML/CSS',
-  //   'Node.js/Express',
-  //   'APIs (REST, GraphQL)',
-  //   'React',
-  //   'Next.js',
-  //   'Vercel',
-  //   'Docker',
-  //   'CI/CD (GitHub Actions)',
-  //   'PostgreSQL / MongoDB',
-  //   'State management (Redux, Zustand)',
-  //   'Testing (Jest, RTL, Cypress)',
-  // ];
-
   const skills = [
     'Product strategy & roadmapping',
-    'Full-stack development (React, Node, TypeScript)',
+    'Cross-functional execution',
     'Stakeholder management',
     'Agentic AI workflows',
     'User research',
@@ -162,9 +147,11 @@ const About = () => {
     'Agile / Scrum',
     'SQL / PostgreSQL',
     'Technical documentation',
-    'CI/CD & testing workflows',
-    'Data analysis',
     'LLM product integration',
+    'Data analysis',
+    'Technical writing',
+    'Full-stack development (React, Node, TypeScript)',
+    'CI/CD automation & testing workflows',
   ];
 
   return (
@@ -206,7 +193,7 @@ const About = () => {
               books.
             </p>
 
-            <p id="my-tech">What I bring to the table:</p>
+            <p id="my-tech">Skills & experience:</p>
           </div>
 
           <ul className="skills-list">
