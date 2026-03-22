@@ -1,7 +1,7 @@
 ---
 date: '1'
 title: 'DiveIQ'
-cover: './orbit.png'
+cover: './diveiq.png'
 github: 'https://github.com/ryanmcd118/DiveIQ'
 external: 'https://www.diveiq.io/'
 tech:
