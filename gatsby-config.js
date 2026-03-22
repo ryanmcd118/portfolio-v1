@@ -3,8 +3,7 @@ const config = require('./src/config');
 module.exports = {
   siteMetadata: {
     title: 'Ryan McDaniel',
-    description:
-      'Ryan McDaniel is a senior software engineer who specializes in building full-stack applications.',
+    description: 'Ryan McDaniel is a product manager and senior software engineer.',
     siteUrl: 'https://www.ryanmcdaniel.io', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
   },
