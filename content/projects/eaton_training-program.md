@@ -1,7 +1,7 @@
 ---
 date: '2024-01-21'
 title: 'Eaton: Technical Training Program'
-github: 'https://www.eaton.com/us/en-us.html'
+external: 'https://www.eaton.com/us/en-us.html'
 tech:
   - Curriculum Design
   - Stakeholder Management

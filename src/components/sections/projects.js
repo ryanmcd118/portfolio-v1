@@ -116,6 +116,32 @@ const StyledProject = styled.li`
         }
       }
     }
+
+    .project-top-buttons {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 4px;
+
+      a {
+        border: 1px solid var(--secondary-green);
+        border-radius: 3px;
+        padding: 3px 8px;
+        font-size: 10px;
+        font-family: var(--font-mono);
+        color: var(--secondary-green);
+        text-decoration: none;
+        display: block;
+        text-align: right;
+        line-height: 1.4;
+        background: none;
+        transition: var(--transition);
+
+        &:hover {
+          opacity: 0.7;
+        }
+      }
+    }
   }
 
   .project-title {
@@ -187,6 +213,10 @@ const Projects = () => {
               tech
               github
               external
+              buttonOneLabel
+              buttonOneUrl
+              buttonTwoLabel
+              buttonTwoUrl
             }
             html
           }
@@ -217,7 +247,16 @@ const Projects = () => {
 
   const projectInner = node => {
     const { frontmatter, html } = node;
-    const { github, external, title, tech } = frontmatter;
+    const {
+      github,
+      external,
+      title,
+      tech,
+      buttonOneLabel,
+      buttonOneUrl,
+      buttonTwoLabel,
+      buttonTwoUrl,
+    } = frontmatter;
 
     return (
       <div className="project-inner">
@@ -226,23 +265,38 @@ const Projects = () => {
             <div className="folder">
               <Icon name="Folder" />
             </div>
-            <div className="project-links">
-              {github && (
-                <a href={github} aria-label="GitHub Link" target="_blank" rel="noreferrer">
-                  <Icon name="GitHub" />
-                </a>
-              )}
-              {external && (
-                <a
-                  href={external}
-                  aria-label="External Link"
-                  className="external"
-                  target="_blank"
-                  rel="noreferrer">
-                  <Icon name="External" />
-                </a>
-              )}
-            </div>
+            {(buttonOneLabel && buttonOneUrl) || (buttonTwoLabel && buttonTwoUrl) ? (
+              <div className="project-top-buttons">
+                {buttonOneLabel && buttonOneUrl && (
+                  <a href={buttonOneUrl} target="_blank" rel="noopener noreferrer">
+                    {buttonOneLabel}
+                  </a>
+                )}
+                {buttonTwoLabel && buttonTwoUrl && (
+                  <a href={buttonTwoUrl} target="_blank" rel="noopener noreferrer">
+                    {buttonTwoLabel}
+                  </a>
+                )}
+              </div>
+            ) : (
+              <div className="project-links">
+                {github && (
+                  <a href={github} aria-label="GitHub Link" target="_blank" rel="noreferrer">
+                    <Icon name="GitHub" />
+                  </a>
+                )}
+                {external && (
+                  <a
+                    href={external}
+                    aria-label="External Link"
+                    className="external"
+                    target="_blank"
+                    rel="noreferrer">
+                    <Icon name="External" />
+                  </a>
+                )}
+              </div>
+            )}
           </div>
 
           <h3 className="project-title">

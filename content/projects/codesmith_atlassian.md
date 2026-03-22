@@ -1,7 +1,7 @@
 ---
 date: '2024-01-22'
 title: 'Codesmith: Atlassian Migration'
-github: 'https://www.codesmith.io/'
+external: 'https://www.codesmith.io/'
 tech:
   - Agile
   - Jira
