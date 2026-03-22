@@ -181,6 +181,14 @@ const StyledProject = styled.li`
     }
   }
 
+  .project-button {
+    ${({ theme }) => theme.mixins.smallButton};
+    margin: 10px 0;
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+  }
+
   .project-tech-list {
     display: flex;
     flex-wrap: wrap;
@@ -316,6 +324,8 @@ const Featured = () => {
               github
               external
               medium
+              buttonLabel
+              buttonUrl
             }
             html
           }
@@ -348,7 +358,8 @@ const Featured = () => {
         {featuredProjects &&
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { external, title, tech, github, cover, medium } = frontmatter;
+            const { external, title, tech, github, cover, medium, buttonLabel, buttonUrl } =
+              frontmatter;
             const image = getImage(cover);
 
             return (
@@ -365,6 +376,16 @@ const Featured = () => {
                       className="project-description"
                       dangerouslySetInnerHTML={{ __html: html }}
                     />
+
+                    {buttonLabel && buttonUrl && (
+                      <a
+                        className="project-button"
+                        href={buttonUrl}
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        {buttonLabel}
+                      </a>
+                    )}
 
                     {tech.length && (
                       <ul className="project-tech-list">
