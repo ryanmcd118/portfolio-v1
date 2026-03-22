@@ -56,7 +56,8 @@ const StyledProject = styled.li`
     &:hover,
     &:focus-within {
       .project-inner {
-        transform: translateY(-7px);
+        transform: translateY(-4px);
+        border-left: 3px solid var(--secondary-green);
       }
     }
   }
@@ -76,7 +77,8 @@ const StyledProject = styled.li`
     padding: 2rem 1.75rem;
     border-radius: var(--border-radius);
     background-color: var(--dull-strawberry);
-    transition: var(--transition);
+    border-left: 3px solid transparent;
+    transition: border-left 0.2s ease, transform 0.2s ease, box-shadow var(--transition);
     overflow: auto;
   }
 

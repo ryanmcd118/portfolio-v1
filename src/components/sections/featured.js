@@ -88,6 +88,13 @@ const StyledProject = styled.li`
     background-color: var(--dull-strawberry);
     color: var(--dark-brown);
     font-size: var(--fz-lg);
+    border-left: 3px solid transparent;
+    transition: border-left 0.2s ease, transform 0.2s ease;
+
+    &:hover {
+      border-left: 3px solid var(--secondary-green);
+      transform: translateY(-4px);
+    }
 
     @media (max-width: 480px) {
       padding: 18px;
