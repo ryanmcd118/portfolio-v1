@@ -14,7 +14,7 @@ const StyledProjectsGrid = styled.ul`
 const StyledProject = styled.li`
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 30px;
+  grid-gap: 70px;
   align-items: center;
 
   @media (max-width: 768px) {
