@@ -1,13 +1,13 @@
 ---
 date: '2024-01-21'
-title: 'Eaton: Technical Training Program'
+title: 'Eaton: Technical Documentation'
 github: 'https://www.eaton.com/us/en-us.html'
 tech:
-  - Curriculum Design
-  - Stakeholder Management
-  - Technical Training
+  - Technical Writing
+  - REST APIs
+  - Developer Experience
 company: 'Eaton'
 showInProjects: true
 ---
 
-new Eaton content coming soon
+Authored 20+ technical documents including firmware release notes, architecture guides, and feature walkthroughs for Eaton's network management product line, reaching thousands of end users and developers globally.
