@@ -21,6 +21,7 @@ const StyledAboutSection = styled.section`
 const StyledText = styled.div`
   #my-tech {
     color: var(--primary-orange);
+    margin-bottom: 0;
   }
 
   ul.skills-list {
@@ -28,7 +29,7 @@ const StyledText = styled.div`
     grid-template-columns: repeat(2, minmax(140px, 200px));
     grid-gap: 0 10px;
     padding: 0;
-    margin: 20px 0 0 0;
+    margin: 8px 0 0 0;
     overflow: hidden;
     list-style: none;
 
