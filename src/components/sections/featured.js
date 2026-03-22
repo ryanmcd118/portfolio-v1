@@ -83,6 +83,7 @@ const StyledProject = styled.li`
   }
 
   .project-description {
+    ${({ theme }) => theme.mixins.boxShadow};
     padding: 24px;
     border-radius: 4px;
     background-color: var(--dull-strawberry);
