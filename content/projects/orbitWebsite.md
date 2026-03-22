@@ -1,13 +1,14 @@
 ---
 date: '2024-01-18'
-title: 'orbitdev.io'
+title: 'Orbit'
 github: 'https://github.com/oslabs-beta/orbit'
 external: 'https://www.orbitdev.io/'
 tech:
   - GraphQL
   - React
-  - React Flow
+  - Node.js
+  - PostgreSQL
 showInProjects: true
 ---
 
-A landing page & web-based GUI for auto-generating database schema.
+Open-source GraphQL developer tool that automated schema and resolver generation from relational database inputs.

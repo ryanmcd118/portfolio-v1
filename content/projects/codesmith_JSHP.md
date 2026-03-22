@@ -1,5 +1,5 @@
 ---
-date: '2024-01-21'
+date: '2024-01-19'
 title: 'JavaScript: The Hard Parts'
 external: 'https://www.youtube.com/watch?v=D0B51op_7yI'
 tech:
