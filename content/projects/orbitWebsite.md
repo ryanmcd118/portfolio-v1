@@ -1,5 +1,5 @@
 ---
-date: '2024-01-18'
+date: '2024-01-17'
 title: 'Orbit'
 github: 'https://github.com/oslabs-beta/orbit'
 external: 'https://www.orbitdev.io/'

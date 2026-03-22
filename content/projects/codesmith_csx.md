@@ -1,5 +1,5 @@
 ---
-date: '2024-01-20'
+date: '2024-01-19'
 title: 'CSX'
 external: 'https://csx.codesmith.io/'
 tech:
